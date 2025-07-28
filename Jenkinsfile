@@ -1,9 +1,6 @@
 pipeline {
    agent any
-   tools {
-        terraform "terraform_1.12.2"
-    }
-
+   
    stages {
         stage('Clone Repo') {
             steps {
